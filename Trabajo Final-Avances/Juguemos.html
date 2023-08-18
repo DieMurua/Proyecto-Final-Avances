@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"> 
+    <link rel="icon" href="./assets/imagenes/logo.png">
+    <title>Poyecto-Final</title>
+</head>
+<body class="color-body">
+    <nav>
+        <a href="./index.html">
+            <svg  width="200" height="80">
+                <rect x="45" y="5" width="60" height="35" rx="5" id="mon1" fill="#F0E9D2"></rect>
+                <rect x="50" y="10" width="50" height="25" rx="5" id="mon2" fill="#495579"></rect>
+                <polygon points="55 45 ,95 45,115 62,30 62" fill="#F0E9D2" id="tec1"></polygon>
+                <polygon points="57 48 ,92 48,104 58,43 58" fill="#495579" id="tec2"></polygon>
+            </svg>
+        </a>
+        <ul class="menu">
+            <li>
+                <a class="item-menu" href="./Historia.html">HISTORIA</a>
+            </li>
+            <li>
+                <a class="item-menu" href="./Juguemos.html">JUGUEMOS</a>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <h1 class="titulo">JUGUEMOS UN POCO</h1>
+    </header>
+    <main id="juego">
+        <h2>Armemos el rompecabezas y veamos que imagen es...</h2>
+        <section class="rompecabezas">
+            <div class="armado">
+                <div class="lugar" id="caja1">
+                    <p>Arrastre y suelte la imagen aqui</p>
+                </div>
+                <div class="lugar" id="caja2">
+                    <p>Arrastre y suelte la imagen aqui</p>
+                </div>
+                <div class="lugar" id="caja3">
+                    <p>Arrastre y suelte la imagen aqui</p>
+                </div>
+            </div>
+            <div id="caja-piezas">
+                <img id="pieza1" src="./assets/imagenes/Rompe2.png" alt="imagen-rompecabezas">
+                <img id="pieza2" src="./assets/imagenes/rompe1.png" alt="imagen-rompecabezas">
+                <img id="pieza3" src="./assets/imagenes/Rompe3.png" alt="imagen-rompecabezas">
+            </div>
+        </section>
+        <button id="boton-reinicio">Reiniciar</button>
+    </main>
+
+
+    <footer>
+        <div class="footer-izq">
+            <img src="./assets/imagenes/logo.png">
+            <p class="titulo-footer">Programacion<br> E<br> Historia</p>
+        </div>
+        <div>
+            Sitio hecho con fines educativos. Creado por Diego Murúa
+        </div>
+    </footer>
+    <script src="./scriptjuego.js"></script>
+</body>
+</html>
